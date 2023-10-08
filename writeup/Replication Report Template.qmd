@@ -10,10 +10,16 @@ format:
 
 <!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
 
-## Introduction
+## Introduction 
 
-[No abstract is needed.]  Each replication project will have a straightforward, no frills report of the study and results.  These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole.  Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection.  Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information.  It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.  
+Paxton, Unger and Greene (2011) investigated the role of reflection and reasoning on moral judgements. I'm a PhD student in philosophy and recent MA student in psychology. While I am not primarily interested in moral philosophy or psychology, I am interested in the project of empirically testing the intutions and assumptions that philosophers often adopt when making arguments. Here, it has been widely assumed in philosophy that reflection and reasoning should change one's moral views. In fact, if this wasn't assumed, it would be difficult to justify engaging in moral philosophy at all. However (by an ought-implies-can principle) we should be interested in knowing whether and in what ways reason and reflection can actually influence moral judgements in real people; this is the overarching theme of the present paper.
 
+Experiment 1 of Paxton, Unger and Green (2011) tested whether reflection causes participants to engage in utilitarian moral reasoning. Participants were randomly assigned to complete a Cognitive Reflection Test (CRT) before or after responding to three moral dillemas. The CRT is thought to prime critical reflection which overrides intuition. It was hypothesized that participants who completed the CRT first would make moral decisions informed by disinterested cost-benefit analyses because they overrode initial affective aversion to extrene moral actions (like killing one person to save many). Three "high-conflict" moral dillemmas were used. All participants evaluated whether a utilitarian response was acceptable, first by a binary (YES/NO) then a rating scale (1 = Completely Unacceptable, 7 = Completely Acceptable). Finally, they answered basic demographic questions.
+
+[Link to repo](https://github.com/psych251/paxton2011_rescue)
+[Link to original paper in repo](https://github.com/psych251/paxton2011_rescue/blob/main/original_paper/paxton2011.pdf)
+
+Anticipated challenges in replicating this study involve recreating the experimental design and adding additional statistical checks, if needed.
 
 ## Summary of prior replication attempt
 
