@@ -147,7 +147,7 @@ library(effsize)
 ```{R}
 #### Import data
 library(readr)
-raw_data <- read_csv("~/Library/CloudStorage/OneDrive-Personal/Academics/Stanford/Courses/Fall_2023/PSYCH_251/paxton2012_rescue/data/Pilot_A/Paxton_(2012)_Rescue_Pilot_A1.csv")
+raw_data <- read_csv("/Users/alexpereira/Library/CloudStorage/OneDrive-Personal/Academics/Stanford/Courses/Fall_2023/PSYCH_251/paxton2012_rescue/data/Paxton_(2012)_Rescue_Pilot_A1.csv")
 ```
 
 ```{R}
