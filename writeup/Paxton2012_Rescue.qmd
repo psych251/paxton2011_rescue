@@ -19,7 +19,7 @@ According to Haidt's Social Intuitionist Model (SIM) of moral judgement, moral e
 
 [Link to repo](https://github.com/psych251/paxton2011_rescue)
 [Link to original paper in repo](https://github.com/psych251/paxton2012_rescue/blob/main/original_paper/paxton2012.pdf)
-[Link to Qualtrics survey](https://stanforduniversity.qualtrics.com/jfe/form/SV_248bMfZVITBMBhQ)
+[Link to Qualtrics survey](https://stanforduniversity.qualtrics.com/jfe/form/SV_4My55zUBo9dyELQ)
 
 ## Summary of prior replication attempt
 
