@@ -11,19 +11,19 @@ editor: visual
 library(tidyverse)
 library(dplyr)
 
-pilot_b_raw <- read_csv("/Users/alexpereira/Library/CloudStorage/OneDrive-Personal/Academics/Stanford/Courses/Fall_2023/PSYCH_251/paxton2012_rescue/data/pilot_b_data.csv")
+d_raw <- read_csv("/Users/alexpereira/Library/CloudStorage/OneDrive-Personal/Academics/Stanford/Courses/Fall_2023/PSYCH_251/Paxton (2012) Rescue_December 5, 2023_20.48.csv")
 
 # Replace c("column_name1", "column_name2") with the names of the columns you want to delete
-columns_to_delete <- c("IPAddress", "ResponseId", "RecipientLastName", "RecipientFirstName", "RecipientEmail", "ExternalReference", "LocationLatitude", "LocationLongitude", "DistributionChannel", "Q_RecaptchaScore")
+columns_to_delete <- c("IPAddress", "ResponseId", "RecipientLastName", "RecipientFirstName", "RecipientEmail", "ExternalReference", "LocationLatitude", "LocationLongitude", "DistributionChannel", "Q_RecaptchaScore", "PROLIFIC_PID", "STUDY_ID", "SESSION_ID")
 
 # Use tidyverse functions to remove specified columns
-pilot_b_anon <- pilot_b_raw %>%
+d_anon <- d_raw %>%
   select(-any_of(columns_to_delete))
 
-view(pilot_b_anon)
+view(d_anon)
 
 # Export as CSV File
-write.csv(pilot_b_anon, file = "/Users/alexpereira/Library/CloudStorage/OneDrive-Personal/Academics/Stanford/Courses/Fall_2023/PSYCH_251/paxton2012_rescue/data/pilot_b_anon.csv", row.names = FALSE)
+write.csv(d_anon, file = "/Users/alexpereira/Library/CloudStorage/OneDrive-Personal/Academics/Stanford/Courses/Fall_2023/PSYCH_251/paxton2012_rescue/data/rescue_data_anon.csv", row.names = FALSE)
 
 
 ```

@@ -12,14 +12,12 @@ format:
 
 ## Introduction 
 
-Paxton, Unger and Greene (2012) investigated the role of reflection and reasoning on moral judgements. I am a PhD student in philosophy and MA student in psychology. While I am not primarily interested in moral philosophy or psychology, I am interested in the project of empirically testing the intuitions and assumptions that philosophers often adopt when making arguments. Here, it has been widely assumed in philosophy that reflection and reasoning can change one's moral views. In fact, if this wasn't assumed, it would be difficult to justify engaging in moral philosophy at all. However (by an ought-implies-can principle) we should be interested in knowing whether and in what ways reason and reflection can actually influence moral judgements in real people; this is the overarching theme of Paxton et al.'s (2012) experiments.
-
-According to Haidt's Social Intuitionist Model (SIM) of moral judgement, moral evaluations are furnished by quick and automatic emotional responses, not reasoning nor critical reflection. However, other theories of moral judgement grant reasoning and reflection more influence on moral evaluations. Experiment 1 or Paxton et al. (2012) tested whether reflection caused subjects to engage in utilitarian (cost-benefit) moral reasoning. Subjects were randomly selected to undertake a cognitive reflection task (CRT) either before or after evaluating utilitarian solutions to high-stales moral dilemmas. The CRT is thought to induce a reflective state that can override intuition. It was hypothesized that subjects in the CRT-first condition would be more likely to evaluate moral quandries according to utilitarian (cost-benefit) reasoning, as reflection would override initial emotional aversions to extreme actions (such as killing one person to save many). Three "high-conflict" moral dilemmas were used. All participants evaluated whether a utilitarian response was acceptable, first by a binary (YES/NO) then a rating scale (1 = Completely Unacceptable, 7 = Completely Acceptable). Finally, participants answered basic demographic questions.
+Paxton, Unger and Greene (2012) investigated the role of reflection and reasoning on moral judgements. According to the Social Intuitionist Model (SIM) of moral judgement, moral evaluations are furnished by quick and automatic emotional responses, not reasoning nor critical reflection. However, other theories of moral judgement grant reasoning and reflection more influence on moral evaluations. Experiment 1 of Paxton et al. (2012) tested whether reflection caused subjects to engage in utilitarian (cost-benefit) moral reasoning. Subjects were randomly selected to undertake a cognitive reflection task (CRT) either before or after evaluating utilitarian solutions to high-stales moral dilemmas. The CRT is thought to induce a reflective state that can override intuition. It was hypothesized that subjects in the CRT-first condition would be more likely to evaluate moral quandaries according to utilitarian (cost-benefit) reasoning, as reflection would override initial emotional aversions to extreme actions (such as killing one person to save many). Three "high-conflict" moral dilemmas were used. All participants evaluated whether a utilitarian response was acceptable, first by a binary (YES/NO) then a rating scale (1 = Completely Unacceptable, 7 = Completely Acceptable). Finally, participants answered basic demographic questions.
 
 
 [Link to repo](https://github.com/psych251/paxton2011_rescue)
 [Link to original paper in repo](https://github.com/psych251/paxton2012_rescue/blob/main/original_paper/paxton2012.pdf)
-[Link to Qualtrics survey](https://stanforduniversity.qualtrics.com/jfe/form/SV_4My55zUBo9dyELQ)
+[Link to Qualtrics survey](https://stanforduniversity.qualtrics.com/jfe/form/SV_8rl2b3bXMAIGB1k)
 
 ## Summary of prior replication attempt
 
@@ -93,7 +91,7 @@ The original Cognitive Reflection Test (CRT) questions, quoted from Frederick (2
 
 3. In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake? _____ days”
 
-The present study opted to include a rewritten version of one original CRT questions (to decrease familiarity), alongside five CRT-2 questions (Thomson and Oppenheimer, 2016) which require numerical answers.
+The present study opted to include a rewritten version of one original CRT questions (to decrease familiarity), alongside three CRT-2 questions (Thomson and Oppenheimer, 2016) which require numerical answers.
 
 CRT and CRT-2 questions:
 
@@ -125,20 +123,19 @@ Quoted from original article:
 
 ### Controls
 
-
-A committment check and attention check are included in the survey to ensure participants read the CRTs and especially the moral dilemmas sincerely. There was no attention check nor commitment check mentioned in the original paper, while Fedreday (2019) included an attention check in the "methods addendum" post data collection. 
+A commitment check and attention check are included in the survey to ensure participants read the CRTs and especially the moral dilemmas sincerely. There was no attention check nor commitment check mentioned in the original paper, while Fedreday (2019) included an attention check in the "methods addendum" post data collection. 
 
 ### Analysis Plan
 
-* Exclusion rules: Exclude subjects who do not pass attention check. Exclude subjects who did not answer at least one CRT question correctly (i.e., those we a CRT score of 0).
-* CRT scores: Calculate each participant's CRT score by assigning 1 for correct and 0 for incorrect response. Minimum score is 0, maximum score is 3. 
+* Exclusion rules: Exclude subjects who do not pass attention check, exclude subjects who did not answer at least one CRT question correctly (i.e., those we a CRT score of 0), and exclude subjects who took longer than an hour to finish the survey
+* CRT scores: Calculate each participant's CRT score by assigning 1 for correct and 0 for incorrect response. Minimum score is 0, maximum score is 5. 
 * Reliability of CRT scores: Calculate Cronbach's alpha to determine reliability across moral dilemmas.
 * Moral acceptability rating: Collapse each subjects moral acceptability rating to create an average moral acceptability rating for each subject.
 * Linear regression of CRT-First condition on utilitarian moral judgments.
 * Main Statistical Test: Between-subject t-test of CRT-First condition on individual moral acceptability rating.
 * Controlling for trait-reflectiveness: Test correlation among subjects in the Dilemmas first condition to rule out variation due to trait reflectiveness. Confirm with a Fischer r-z test.
-* Controlling for effects of perfoming a task before moral judgements. A potential objection is that simply doing any non-specific problem solving task might change moral evaluations. To test this, calculate the within CRT-first condition correlation of CRT scores and moral acceptability ratings. 
-* Regress the CRT scores across the two conditions to address the objection that receiving the Dilemmas-First condition would influence subsequent CRT Performance.
+* Controlling for effects of performing a task before moral judgements. A potential objection is that simply doing any non-specific problem solving task might change moral evaluations. To test this, calculate the within CRT-first condition correlation of CRT scores and moral acceptability ratings. 
+* Regress the CRT scores across the two conditions to address the objection that receiving the Dilemmas-First condition would influence subsequent CRT Performance
 
 **Key analyses of interest**
 
@@ -150,20 +147,19 @@ If higher CRT scores correlate positively with utilitarian judgements of moral a
 
 ## 
 
-### Differences from Original Study and 1st replication
-
-Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study.  The goal, of course, is to minimize those differences, but differences will inevitably occur.  Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect.
-
 ### Methods Addendum (Post Data Collection)
 
-You can comment this section out prior to final report with data collection.
-
 #### Actual Sample
-  Sample size, demographics, data exclusions based on rules spelled out in analysis plan
+There were 241 participants recruited through Prolific pre-exclusion, and 160 participants post-exclusion. Participants were excluded for failing the attention check, getting 0 CRT questions correct, or for taking longer than one hour on the survey. Of the post-exclusion pool, there were 44% males, 54% females, and 2% other. The mean age was 30.9 years,
 
 #### Differences from pre-data collection methods plan
-  Any differences from what was described as the original plan, or “none”.
+Participants were instructed to input numerical responses for all CRT questions. However, many participants used characters (e.g., "nine"), and some included longer written responses. Such responses were recoded using the following criteria: written answers needed to unambiguously and uniquely map to the correct numerical answer. For example:
 
+* CRT-1. Answers were correct if they explicitly said that moses included no animals on the ark (e.g., "zero" or "none" were counted as correct). Answers were incorrect even if they correctly identified the ark is associated with Noah, not Moses; participants need to explicity respond with the equivalent of "0".
+* CRT-2. February" recoded as 1. "All of them" recoded as 12" (correct)
+* CRT-3. Any written answers which clearly say that eight sheep are alive were recoded as "8", correct.
+
+Answers equivalent to "I don't know" were recoded as 1234, which is an incorrect answer for all questions.
 
 ## Results
 
@@ -186,26 +182,32 @@ library(qualtRics)
 library(psych)
 library(kableExtra)
 library(effsize)
+library(mbest)
+library(boot)
+library(psychonetrics)
+library(metafor)
+
 
 ```
 
 ```{R}
 #### Import data
 library(readr)
-raw_d <- read_csv("/Users/alexpereira/Library/CloudStorage/OneDrive-Personal/Academics/Stanford/Courses/Fall_2023/PSYCH_251/paxton2012_rescue/data/pilot_b_data.csv")
+raw_d <- read_csv("/Users/alexpereira/Library/CloudStorage/OneDrive-Personal/Academics/Stanford/Courses/Fall_2023/PSYCH_251/paxton2012_rescue/data/data_anon.csv")
 
 raw_d <- raw_d %>%
   slice(-c(1, 2))
 
-view(raw_d)
+head(raw_d)
 ```
 
 ```{R}
 #### Data Preparation for Analysis
+
 # Selects relevant columns, renames columns, replaces numbers with strings for gender variables
 clean_d  <- raw_d %>%
-  select(Finished, COM_1, CRT_1, CRT_2, CRT_3, CRT_4, CRT_5, ATT_1, MDA_1, `MDA_2 _1`, MDB_1, `MDB_2 _1`, MDC_1, `MDC_2 _1`, DQ_1, DQ_2, `DQ_2 _3_TEXT`, DQ_3, DQ_4, DQ_5, `DQ_6 _1`, `Duration (in seconds)`, FL_17_DO, FL_18_DO) %>%
-  rename(crt_order = FL_17_DO, dilemma_order = FL_18_DO, age = DQ_1, gender = DQ_2, income = DQ_3, ethnicity = DQ_4, education = DQ_5, familiarity = `DQ_6 _1`, attention_check = ATT_1, duration = 'Duration (in seconds)', D1_Binary = MDA_1, D2_Binary = MDB_1, D3_Binary = MDC_1, D1_Acceptability = `MDA_2 _1`, D2_Acceptability = `MDB_2 _1`, D3_Acceptability = `MDC_2 _1`) %>%
+  select(Finished, COM_1, CRT_1, CRT_2, CRT_3, CRT_4, CRT_5, ATT_1, MDA_1, MDA_2, MDB_1, MDB_2, MDC_1, MDC_2, DQ_1, DQ_2a, DQ_2b, DQ_3, DQ_4a, DQ_4b, DQ_5, DQ_6_CRT, DQ_6_dilemma, Duration, FL_17_DO, FL_18_DO) %>%
+  rename(crt1 = CRT_1, crt2 = CRT_2, crt3 = CRT_3, crt4 = CRT_4, crt5 = CRT_5, commitment = COM_1, crt_order = FL_17_DO, dilemma_order = FL_18_DO, age = DQ_1, gender = DQ_2a, gender_other = DQ_2b, income = DQ_3, ethnicity = DQ_4a, ethnicity_other = DQ_4b, education = DQ_5, fam_crt = DQ_6_CRT, fam_dilemma = DQ_6_dilemma, att_check = ATT_1, duration = Duration, d1_binary = MDA_1, d2_binary = MDB_1, d3_binary = MDC_1, d1_acc = MDA_2, d2_acc = MDB_2, d3_acc = MDC_2, finished = Finished) %>%
   mutate (gender, gender = ifelse(gender == 1, "male", gender)) %>%
   mutate(gender, gender = ifelse(gender == 2, "female", gender)) %>%
   mutate(gender, gender = ifelse(gender == 3, "other", gender))
@@ -214,108 +216,136 @@ clean_d  <- raw_d %>%
 ```{R}
 # Converts data from character to numerical
 clean_d <- clean_d %>%
-  mutate_at(vars(CRT_1, CRT_2, CRT_3, CRT_4, CRT_5, Finished,
-                 COM_1, attention_check, D1_Binary, D1_Acceptability,
-                 D2_Binary, D2_Acceptability, D3_Binary, D3_Acceptability,
-                 age, income, education, duration),
+  mutate_at(vars(commitment, crt1, crt2, crt3, crt4, crt5, age, income, education, fam_crt, fam_dilemma, att_check, duration, d1_binary, d2_binary, d3_binary, d1_acc, d2_acc, d3_acc),
             as.numeric)
+
 ```
 
 ```{R}
 # Creates a new variable for total CRT score and average CRT score
-
 clean_d <- clean_d %>%
-  mutate(across(starts_with("CRT_1"), ~ ifelse(. == 0, 1, ifelse(. != 1, 0, .)), .names = "new_CRT_1"),
-         across(starts_with("CRT_2"), ~ ifelse(. == 10, 1, ifelse(. != 1, 0, .)), .names = "new_CRT_2"),
-         across(starts_with("CRT_3"), ~ ifelse(. == 12, 1, ifelse(. != 1, 0, .)), .names = "new_CRT_3"),
-         across(starts_with("CRT_4"), ~ ifelse(. == 8, 1, ifelse(. != 1, 0, .)), .names = "new_CRT_4"),
-         across(starts_with("CRT_5"), ~ ifelse(. == 25, 1, ifelse(. != 1, 0, .)), .names = "new_CRT_5")) %>%
-  mutate(CRT_score = rowSums(select(., starts_with("new_CRT_"))),
-         CRT_mean = rowMeans(select(., starts_with("new_CRT_"))))
+  mutate(across(starts_with("crt1"), ~ ifelse(. == 0, 1, 0), .names = "correct_crt1"),
+         across(starts_with("crt2"), ~ ifelse(. == 10, 1, 0), .names = "correct_crt2"),
+         across(starts_with("crt3"), ~ ifelse(. == 12, 1, 0), .names = "correct_crt3"),
+         across(starts_with("crt4"), ~ ifelse(. == 8, 1, 0), .names = "correct_crt4"),
+         across(starts_with("crt5"), ~ ifelse(. == 25, 1, 0), .names = "correct_crt5")) %>%
+  mutate(crt_score = rowSums(select(., starts_with("correct_"))),
+         crt_mean = rowMeans(select(., starts_with("correct_"))))
 
 # Creates a new column showing mean acceptability rating
 clean_d <- clean_d %>%
-  mutate(mean_acceptability = (D1_Acceptability + D2_Acceptability + D3_Acceptability)/3)
-
-# Creates a new variable for attention check
-clean_d <- clean_d %>% 
-  mutate(across(starts_with("attention_check"), ~ ifelse(. == 4, 1, ifelse(. != 1, 0, .)), .names = "attention_check_1"))
+  mutate(mean_acc = (d1_acc + d2_acc + d3_acc)/3)
 
 view(clean_d)
 ```
 
 ```{R}
-# Reassigns binary moral judgements yes/no as 1 or 0
+# Creates a new variable for attention check
 clean_d <- clean_d %>%
-  mutate(across(starts_with("D1_Binary"), ~ifelse(. == 1, 1, ifelse(. == 2, 0, .)), .names = "{col}"),
-         across(starts_with("D2_Binary"), ~ifelse(. == 1, 1, ifelse(. == 2, 0, .)), .names = "{col}"),
-         across(starts_with("D3_Binary"), ~ifelse(. == 1, 1, ifelse(. == 2, 0, .)), .names = "{col}"))
-
-# Creates new column showing mean binary judgment
-clean_d <- clean_d %>% 
-  mutate(mean_judgment = (D1_Binary+D2_Binary+D3_Binary)/3)
+    mutate(across(starts_with("att_check"), ~ ifelse(. == 4, 1, 0), .names = "pass_att_check"))
 
 ```
 
 ```{R}
+# Reassigns binary moral judgements yes/no as 1 or 0
+clean_d <- clean_d %>%
+  mutate(across(starts_with("d1_binary"), ~ifelse(. == 1, 1, ifelse(. == 2, 0, .)), .names = "{col}"),
+         across(starts_with("d2_binary"), ~ifelse(. == 1, 1, ifelse(. == 2, 0, .)), .names = "{col}"),
+         across(starts_with("d3_binary"), ~ifelse(. == 1, 1, ifelse(. == 2, 0, .)), .names = "{col}"))
+
+# Creates new column showing mean binary judgment
+clean_d <- clean_d %>% 
+  mutate(mean_judgment = (d1_binary + d2_binary + d3_binary)/3)
+
+head(clean_d)
+```
+
+```{R}
 # Data exclusion / filtering. 
-## Filters out participants that did not get at least one CRT question correct (CRT_total = 0) or failed attention check
 
+## Basic count of CRT scores = 0
+count_zero_entries <- clean_d %>%
+  filter(crt_score == 0) %>%
+  summarise(zero_entries = n())
+cat("Count of entries where CRT Score is 0:", count_zero_entries$zero_entries, "\n")
+
+## Basic count of failed attention checks 
+count_failed_attention <- clean_d %>%
+  filter(pass_att_check == 0) %>%
+  summarise(failed_attention = n())
+cat("Count of failed attention checks:", count_failed_attention$failed_attention, "\n")
+
+## Basic count of participants who took > 1 hour to complete the survey
+count_too_long <- clean_d %>%
+  filter(duration > 3660) %>%
+  summarise(too_long = n())
+cat("Count of duration longer than an hour:", count_too_long$too_long, "\n")
+
+
+```
+
+```{R}
+
+## Exclusions
 filtered_d <- clean_d %>%
-  group_by(CRT_score) %>%
-  filter(CRT_score != 0) %>%
-  group_by(attention_check_1) %>%
-  filter(all(attention_check_1 != 0))
-
-view(filtered_d)
+  filter(crt_score != 0) %>% ### Filters out participants who did not get at least one CRT question correct (crt_score = 0)
+  filter(pass_att_check != 0) %>% ### Filters out participants who did not pass attention check
+  filter(duration <= 3660) %>% ### Filters out participants who took > 1 hour to complete the survey (n=2)
+  filter(d1_acc != -99, d2_acc != -99, d3_acc != -99) ### Filters out participants who did not provide answers to all moral acceptability questions
 
 ```
 
 ### Confirmatory analysis
 
 ```{R}
-
 # Calculates Cronbach's Alpha for inter-dilemma reliability to justify one moral acceptability score
-filtered_d %>%
-  select(D1_Acceptability, D2_Acceptability, D3_Acceptability) %>%
+filtered_d %>% 
+  select(d1_acc, d2_acc, d3_acc) %>% 
   alpha(check.keys = TRUE)
+
 ```
 
 ```{R}
 # Chisquared Test for Pre and Post Exclusion Data
-## Creates and original data frame
-original_d <- clean_d %>%
-  group_by(crt_order) %>%
-  summarise (n=n())
+
+## Creates a pre-exclusions data frame 
+original <- clean_d %>% 
+  group_by(crt_order) %>% 
+  summarise(n = n())
 
 ## Creates a data frame with excluded observation
-excluded_d <- clean_d %>% 
-  group_by(CRT_score) %>%
-    filter(!any(CRT_score == 0)) %>% 
+excluded <- clean_d %>% 
+  filter(
+    crt_score != 0,
+    pass_att_check != 0,
+    duration <= 3660,
+    d1_acc != -99,
+    d2_acc != -99,
+    d3_acc != -99
+  ) %>% 
   group_by(crt_order) %>% 
-  summarise(n=n())
+  summarise(n = n())
 
 ## Joins the two data frames
-original_excluded <- inner_join(original_d, excluded_d, by = "crt_order")
-original_excluded <- original_excluded %>% 
-  select(n.x, n.y)
+original_excluded <- inner_join(original, excluded, by = "crt_order")
 
-## Chisquared Test
-chisq.test(original_excluded)
-print(chisq.test)
-
+## Chi-squared Test
+chisq_result <- chisq.test(original_excluded[, c("n.x", "n.y")])
+print(chisq_result)
 view(original_excluded)
+
 ```
 
 
 ```{R}
-# (Main statistical test) two sample t-test between mean_acceptability and CRT_order.
+# Main statistical test: two sample t-test between mean_acceptability and CRT_order.
+
 ## If mean moral acceptability ratings is significantly greater in CRT-first group compared to Dilemmas-first group, results support the main inference of the paper, i.e., that CRT exposure (operationalizing "reflection") causes an increase in utilitarian (cost-benefit) moral reasoning. 
+
 main_t <- filtered_d %>% 
-  t.test(data = ., mean_acceptability ~ crt_order, var.equal = TRUE)
+  t.test(data = ., mean_acc ~ crt_order, var.equal = TRUE)
 main_t
 ```
-
 ```{R}
 # Shows the count for each condition that can then be entered into the calculation for Cohen's d below
 condition_counts <- filtered_d %>% 
@@ -327,49 +357,41 @@ kable(condition_counts) %>%
 
 ```{R}
 # Calculating Cohen's D for effect size
-## Preparing groups and fixing for hidden special characters in "CRT |FL_18" label [i.e., CRT |FL_18], the label for CRT First Condition
-### Removing whitespace from crt_order column
-filtered_d$crt_order <- str_trim(filtered_d$crt_order)
+crt_first <- filtered_d %>%
+  filter(crt_order == "CRT|FL_18") %>%
+  pull(mean_acc)
 
-###Ensuring crt_order has character values instead of numeric values
-filtered_d$crt_order <- as.character(filtered_d$crt_order)
+dilemma_first <- filtered_d %>%
+  filter(crt_order == "FL_18|CRT") %>%
+  pull(mean_acc)
 
-### Replace special characters with regular spaces in the crt_order column
-filtered_d$crt_order <- gsub("[^[:alnum:][:space:]|-]", " ", filtered_d$crt_order)
-unique(filtered_d$crt_order)
-
-### Creating mean_acceptability scores for CRT_First and Dilemma_First condition
-CRT_First <- filtered_d %>%
-  filter(crt_order == "CRT |FL 18") %>%
-  pull(mean_acceptability)
-
-Dilemma_First <- filtered_d %>%
-  filter(crt_order == "FL 18|CRT") %>%
-  pull(mean_acceptability)
-
-##Calculating Cohen's D for effect size
-cohen_d <- cohen.d(CRT_First, Dilemma_First)
+cohen_d <- cohen.d(crt_first, dilemma_first)
 print(cohen_d)
+
+view(crt_first)
+
+
+```
+
+```{R} 
+# Creates a dataframe subsetting CRT first observations
+crt_first_d <- filtered_d %>%
+  filter(crt_order == "CRT|FL_18")
+
+head(crt_first_d)
+
 ```
 
 ```{R}
-# Create a dataframe subsetting CRT first observations
-crt_first_d <- filtered_d %>% 
-  group_by(crt_order) %>% 
-  filter(!any(crt_order == "FL 18|CRT")) 
+# Main Statistical Test: Pearson's r calculation correlating CRT total score and mean acceptability for CRT first observations.
 
-view(crt_first_d)
-```
-
-```{R}
-# (Main Statistical Test) Pearson's r calculation correlating CRT total score and mean acceptability for CRT first observations.
 ## If higher CRT scores correlate positively with utilitarian judgements of moral acceptability, results support the secondary inference of the paper, i.e., that higher CRT scores in the CRT First group is expressive of stronger "reflection" which causes an increase in utilitarian (cost-benefit) ratings. Note that this result only supports the secondary inference if there is no positive correlation between CRT scores and moral acceptability ratings in the Dilemmas First condition.
 
 crt_first_r <- crt_first_d %>%
   summarise(
-    correlation = cor(mean_acceptability, CRT_score),
-    cor_test_stat = cor.test(mean_acceptability, CRT_score)$statistic,
-    cor_test_pvalue = cor.test(mean_acceptability, CRT_score)$p.value
+    correlation = cor(mean_acc, crt_score),
+    cor_test_stat = cor.test(mean_acc, crt_score)$statistic,
+    cor_test_pvalue = cor.test(mean_acc, crt_score)$p.value
   )
 
 print(crt_first_r)
@@ -378,21 +400,19 @@ print(crt_first_r)
 ```
 
 ```{R}
-# Create a dataframe subsetting dilemma first observations
-dilemma_first_d <- filtered_d %>% 
-  group_by(crt_order) %>% 
-  filter(!any(crt_order == "CRT |FL 18"))
+# Creates a dataframe subsetting Dilemma first observations
+dilemma_first_d <- filtered_d %>%
+  filter(crt_order == "FL_18|CRT")
+
 ```
 
 ```{R}
-# (Main Statistical Test) Pearson's r calculation correlating CRT total score and mean acceptability for dilemma first observations
-
-
+# (Main Statistical Test) Pearson's r calculation correlating CRT score and mean acceptability for dilemma first observations
 dilemma_first_r <- dilemma_first_d %>%
    summarise(
-    correlation = cor(mean_acceptability, CRT_score),
-    cor_test_stat = cor.test(mean_acceptability, CRT_score)$statistic,
-    cor_test_pvalue = cor.test(mean_acceptability, CRT_score)$p.value
+    correlation = cor(mean_acc, crt_score),
+    cor_test_stat = cor.test(mean_acc, crt_score)$statistic,
+    cor_test_pvalue = cor.test(mean_acc, crt_score)$p.value
   )
 
 print(dilemma_first_r)
@@ -400,50 +420,451 @@ print(dilemma_first_r)
 ```
 
 ```{R}
-# Scatterplot with jitter and point color as gender and size of point as duration to match original study's figure 1
-ggplot(data = crt_first_d, aes(x = jitter(CRT_score), y = mean_acceptability)) +
-  geom_point(aes(color = gender, size = duration)) + 
+# Scatterplot of Mean Acceptability on CRT Score
+ggplot(data = crt_first_d, aes(x = jitter(crt_score), y = mean_acc)) +
+  geom_point(aes(color = gender, size = duration)) +  # Size based on "duration"
   stat_smooth(method = 'lm') +
-  labs(x = "Number of Correct CRT Items", y = "Mean Moral Acceptability Rating", title = "Mean Acceptability on CRT Score")
+  labs(x = "Number of Correct CRT Items", y = "Mean Moral Acceptability Rating", title = "Mean Acceptability on CRT Score for CRT-First Group") +
+  scale_size_continuous(range = c(1, 4))  # Adjust the range according to your preference
+
+
+
 ```
 
 ```{R}
 # Fisher r to z test to test correlation between CRT first and Dilemma first r coefficients
+
 ## Calculate correlation coefficients
 crt_cor <- crt_first_d %>%
-  select(CRT_score, mean_acceptability) %>%
-  summarise(correlation = cor(CRT_score, mean_acceptability))
+  select(crt_score, mean_acc) %>%
+  summarise(correlation = cor(crt_score, mean_acc))
 
 dilemma_cor <- dilemma_first_d %>%
-  select(CRT_score, mean_acceptability) %>%
-  summarise(correlation = cor(CRT_score, mean_acceptability))
-
+  select(crt_score, mean_acc) %>%
+  summarise(correlation = cor(crt_score, mean_acc))
 
 ## Perform Fisher's r-to-z transformation test
 paired.r(crt_cor$correlation, dilemma_cor$correlation, NULL, nrow(crt_first_d), nrow(dilemma_first_d), twotailed=TRUE)
 ```
 
-
-```{R}
-# t-test between mean acceptability and CRT order to respond to the concern that presentation of the dilemmas first influenced subsequent CRT performance
-clean_d %>% 
-  t.test(data = ., CRT_score ~ crt_order, var.equal = TRUE)
-```
 *Three-panel graph with original, 1st replication, and your replication is ideal here*
 
 ### Exploratory analyses
 
 Any follow-up analyses desired (not required).  
 
+```{R}
+# # t-test between CRT score and CRT order to respond to the concern that presentation of the dilemmas first influenced subsequent CRT performance
+filtered_d %>% 
+  t.test(data = ., crt_score ~ crt_order, var.equal = TRUE)
+
+```
+
+```{R}
+# t-test between mean acceptability and attention check for pre-excluded data
+clean_d %>% 
+  t.test(data = ., mean_acc ~ pass_att_check, var.equal = TRUE)
+
+```
+
+```{R}
+# t-test for mean acceptability by participants that were excluded for getting 0 crt questions correct and those that answered at lease one correctly
+clean_d %>% 
+  t.test(data = ., mean_acc ~ crt_score == 0, var.equal = TRUE)
+
+```
+
+
+```{R}
+# Correlation between duration and acceptability
+cor.test(x=filtered_d$mean_acc, y=filtered_d$duration, method = 'pearson')
+
+```
+
+```{R}
+
+# Main statistical test: t-test of CRT score on moral acceptability ratings for pre-exclusion data
+main_t <- clean_d %>% 
+  t.test(data = ., mean_acc ~ crt_order, var.equal = TRUE)
+main_t
+```
+
+```{R}
+# Main Statistical Test: Pearson's r calculation correlating CRT score and mean acceptability for CRT-first group on pre-exclusion data
+
+## Creates a dataframe subsetting CRT first observations in pre-exclusion data
+crt_first_clean <- clean_d %>%
+  filter(crt_order == "CRT|FL_18")
+
+## Correlation
+crt_first_clean_r <- crt_first_clean %>%
+  summarise(
+    correlation = cor(mean_acc, crt_score),
+    cor_test_stat = cor.test(mean_acc, crt_score)$statistic,
+    cor_test_pvalue = cor.test(mean_acc, crt_score)$p.value
+  )
+
+print(crt_first_clean_r)
+
+```
+
+
+```{R}
+# Descriptive statsitcis of CRT familiarity 
+fam_crt_summary <- filtered_d %>%
+  summarise(
+    Mean = mean(fam_crt),
+    Median = median(fam_crt),
+    SD = sd(fam_crt)
+  )
+
+print(fam_crt_summary)
+```
+
+```{R}
+# Historigram of familiarity with CRT questions
+histogram_plot <- filtered_d %>%
+  ggplot(aes(x = fam_crt)) +
+  geom_histogram(binwidth = 0.5, fill = "blue", color = "black", alpha = 0.7) +
+  labs(x = "CRT Familiarity", y = "Frequency", title = "Histogram of CRT Familiarity") +
+  theme_minimal()
+
+print(histogram_plot)
+
+# Calculate the percentage of respondents answering "somewhat familiar" (2) or "definitely familiar" (3)
+crt_percentage_2_3 <- filtered_d %>%
+  filter(fam_crt %in% c(2, 3)) %>%
+  summarise(Percentage = n() / nrow(filtered_d) * 100)
+
+crt_percentage_3 <- filtered_d %>%
+  filter(fam_crt %in% c(3)) %>%
+  summarise(Percentage = n() / nrow(filtered_d) * 100)
+
+print(crt_percentage_2_3)
+print(crt_percentage_3)
+```
+
+
+```{R}
+# Descriptive statsitcis of Moral Dilemmas familiarity 
+fam_dilemma_summary <- filtered_d %>%
+  summarise(
+    Mean = mean(fam_dilemma),
+    Median = median(fam_dilemma),
+    SD = sd(fam_dilemma)
+  )
+
+print(fam_dilemma_summary)
+
+```
+
+```{R}
+
+# Historigram of familiarity with moral dilemmas
+histogram_plot <- filtered_d %>%
+  ggplot(aes(x = fam_dilemma)) +
+  geom_histogram(binwidth = 0.5, fill = "blue", color = "black", alpha = 0.7) +
+  labs(x = "Dilemma Familiarity", y = "Frequency", title = "Histogram of Dilemma Familiarity") +
+  theme_minimal()
+
+print(histogram_plot)
+
+# Calculate the percentage of respondents answering "somewhat familiar" (2) or "definitely familiar" (3)
+d_percentage_2_3 <- filtered_d %>%
+  filter(fam_dilemma %in% c(2, 3)) %>%
+  summarise(Percentage = n() / nrow(filtered_d) * 100)
+
+d_percentage_3 <- filtered_d %>%
+  filter(fam_dilemma %in% c(3)) %>%
+  summarise(Percentage = n() / nrow(filtered_d) * 100)
+
+print(d_percentage_2_3)
+print(d_percentage_3)
+```
+
+```{R}
+# Correlation between familiarity with CRT questions and CRT Score
+cor.test(x=filtered_d$fam_crt, y=filtered_d$crt_score, method = 'pearson')
+
+
+```
+
+```{R}
+# Scatterplot of familiarity with CRT questions on CRT score
+ggplot(data = filtered_d, aes(x = jitter(fam_crt), y = crt_score)) +
+  geom_point(aes(color = gender, size = duration)) + 
+  stat_smooth(method = 'lm') +
+  labs(x = "Familiarity with CRT Questions", y = "CRT Score", title = "Familiarity on CRT Performance")
+
+```
+
+
+```{R}
+# # Correlation between familiarity with Moral Dilemmas and Moral Acceptability Score
+cor.test(x=filtered_d$fam_dilemma, y=filtered_d$mean_acc, method = 'pearson')
+
+```
+
+```{R}
+# Scatterplot of familiarity with CRT questions on CRT score
+ggplot(data = filtered_d, aes(x = jitter(fam_dilemma), y = mean_acc)) +
+  geom_point(aes(color = gender, size = duration)) + 
+  stat_smooth(method = 'lm') +
+  labs(x = "Familiarity with Dilemmas", y = "Mean Acceptability", title = "Familiarity with Dilemmas on Moral Acceptability")
+
+```
+```{R}
+# Correlation between familiarity with CRT questions on Moral Acceptability
+cor.test(x=filtered_d$fam_crt, y=filtered_d$mean_acc, method = 'pearson')
+
+```
+
+```{R}
+# Scatterplot of familiarty with CRT questions on moral acceptability scores
+ggplot(data = filtered_d, aes(x = jitter(fam_crt), y = mean_acc)) +
+  geom_point(aes(color = gender, size = duration)) + 
+  stat_smooth(method = 'lm') +
+  labs(x = "Familiarity with CRT Questions", y = "Mean Moral Acceptability Rating", title = "Familiarity with CRT on Moral Acceptability")
+
+```
+```{R}
+# Correlation between familiarity with dilemmas on CRT score
+cor.test(x=filtered_d$fam_dilemma, y=filtered_d$crt_score, method = 'pearson')
+
+```
+```{R}
+# Scatterplot of familiarty with moral dilemmas on CRT score
+ggplot(data = filtered_d, aes(x = jitter(fam_dilemma), y = crt_score)) +
+  geom_point(aes(color = gender, size = duration)) + 
+  stat_smooth(method = 'lm') +
+  labs(x = "Familiarity with Dilemmas", y = "CRT Score", title = "Familiarity with Dilemmas on CRT Score")
+
+```
+
+
+```{R}
+# Main Statistical tests on data from participants who were either unfamiliar, or slightly familiar, with CRT questions.
+
+## Basic count of participants in post-exlcuded data across both conditions who were either unfamilar or only slightly familiar with CRT questions
+unfamiliar <- filtered_d %>%
+  filter(fam_crt %in% c("1", "2")) %>%
+  summarise(count = n())
+print(unfamiliar$count)
+
+```
+
+```{R}
+## Create dataframe of participants who were unfamiliar or slightly unfamilair with CRT questions
+unfamiliar_crt_d <- filtered_d %>%
+  filter(fam_crt %in% c("1", "2") & fam_crt != "3")
+
+## Main statistical test: t-test of mean moral acceptability ratings in CRT-First vs Dilemma-first groups for participants who were relatively unfamiliar with CRT questions
+main_t_unfamiliar_crt <- unfamiliar_crt_d %>% 
+  t.test(data = ., mean_acc ~ crt_order, var.equal = TRUE)
+print(main_t_unfamiliar_crt)
+
+## Main statistical test: Pearson's r calculation correlating CRT total score and mean acceptability for CRT first observations on participants who were relatively unfamiliar with the CRT questions.
+crt_first_unfamiliar_r <- unfamiliar_crt_d %>%
+  summarise(
+    correlation = cor(mean_acc, crt_score),
+    cor_test_stat = cor.test(mean_acc, crt_score)$statistic,
+    cor_test_pvalue = cor.test(mean_acc, crt_score)$p.value
+  )
+
+print(crt_first_unfamiliar_r)
+
+```
+
+```{R}
+# Main Statistical tests on data from participants who were either unfamiliar, or slightly familiar, with moral dilemmas.
+
+## Basic count of participants in post-exlcuded data across both conditions who were either unfamilar or only slightly familiar with CRT questions
+unfamiliar_dil <- filtered_d %>%
+  filter(fam_dilemma %in% c("1", "2")) %>%
+  summarise(count = n())
+print(unfamiliar_dil$count)
+
+## Create dataframe of participants who were unfamiliar or slightly unfamilair with CRT questions
+unfamiliar_dil_d<- filtered_d %>%
+  filter(fam_dilemma %in% c("1", "2") & fam_dilemma != "3")
+```
+
+
+```{R}
+## Main statistical test: t-test of mean moral acceptability ratings in CRT-First vs Dilemma-first groups for participants who were relatively unfamiliar with CRT questions
+main_t_unfamiliar_dil <- unfamiliar_dil_d %>% 
+  t.test(data = ., mean_acc ~ crt_order, var.equal = TRUE)
+print(main_t_unfamiliar_dil)
+
+## Main statistical test: Pearson's r calculation correlating CRT total score and mean acceptability for CRT first observations on participants who were relatively unfamiliar with the CRT questions.
+crt_first_unfamiliar_dil_r <- unfamiliar_dil_d %>%
+  summarise(
+    correlation = cor(mean_acc, crt_score),
+    cor_test_stat = cor.test(mean_acc, crt_score)$statistic,
+    cor_test_pvalue = cor.test(mean_acc, crt_score)$p.value
+  )
+
+print(crt_first_unfamiliar_dil_r)
+
+```
+```{R}
+# Main statistical tests on participants who were relatively unfamiliar with both CRT questions and moral dilemmas
+
+## Creates new dataframe of participants relatively unfamiliar with both CRT and moral dilemma questions
+unfamiliar_d <- filtered_d %>%
+  filter(fam_crt %in% c("1", "2") & fam_dilemma %in% c("1", "2") & !(fam_crt == "3" | fam_dilemma == "3"))
+
+
+## Main statistical test: t-test of mean moral acceptability ratings in CRT-First vs Dilemma-first groups for participants who were relatively unfamiliar with CRT questions and dilemmas
+main_t_unfamiliar_d <- unfamiliar_d %>% 
+  t.test(data = ., mean_acc ~ crt_order, var.equal = TRUE)
+print(main_t_unfamiliar_d)
+
+## Main statistical test: Pearson's r calculation correlating CRT total score and mean acceptability for CRT first observations on participants who were relatively unfamiliar with the CRT questions.
+unfamiliar_r <- unfamiliar_d %>%
+  summarise(
+    correlation = cor(mean_acc, crt_score),
+    cor_test_stat = cor.test(mean_acc, crt_score)$statistic,
+    cor_test_pvalue = cor.test(mean_acc, crt_score)$p.value
+  )
+
+print(unfamiliar_r)
+
+```
+```{R}
+# Main statistical tests on participants who were entirely unfamiliar with both CRT questions and moral dilemmas
+
+## Creates new dataframe of participants relatively unfamiliar with both CRT and moral dilemma questions
+unfamiliar_d2 <- filtered_d %>%
+  filter(fam_crt %in% c("1") & fam_dilemma %in% c("1"))
+
+## Main statistical test: t-test of mean moral acceptability ratings in CRT-First vs Dilemma-first groups for participants who were relatively unfamiliar with CRT questions and dilemmas
+unfamiliar_d2_t <- unfamiliar_d2 %>%
+  t.test(data = ., mean_acc ~ crt_order, var.equal = TRUE)
+print(unfamiliar_d2_t)
+
+## Main statistical test: Pearson's r calculation correlating CRT total score and mean acceptability for CRT first observations on participants who were relatively unfamiliar with the CRT questions.
+unfamiliar_r2 <- unfamiliar_d %>%
+  summarise(
+    correlation = cor(mean_acc, crt_score),
+    cor_test_stat = cor.test(mean_acc, crt_score)$statistic,
+    cor_test_pvalue = cor.test(mean_acc, crt_score)$p.value
+  )
+
+print(unfamiliar_r2)
+
+```
+
+```{R}
+# Exploratory analysis of an extra exclusion: including only participants who took longer than 2 minutes, but less than an hour, to complete the survey
+
+## Basic count of participants who took < 2 minutes to complete the survey
+count_too_quick <- clean_d %>%
+  filter(duration < 120) %>%
+  summarise(too_quick = n())
+cat("Count of duration less than two minutes:", count_too_quick$too_quick, "\n")
+
+## Exclusions
+filtered_d_exploratory <- filtered_d %>%
+  filter(duration >= 120) ### Filters out participants who took < 2 minutes to complete the survey (n=3)
+
+## Creating a new CRT-first dataframe
+crt_first_de <- filtered_d_exploratory %>%
+  filter(crt_order == "CRT|FL_18")
+
+## (Main Statistical Test) Pearson's r calculation correlating CRT total score and mean acceptability for CRT first observations.
+crt_first_re <- crt_first_de %>%
+  summarise(
+    correlation = cor(mean_acc, crt_score),
+    cor_test_stat = cor.test(mean_acc, crt_score)$statistic,
+    cor_test_pvalue = cor.test(mean_acc, crt_score)$p.value
+  )
+
+print(crt_first_re)
+
+```
+
+
 ## Discussion
 
 ## Mini meta analysis
 Combining across the original paper, 1st replication, and 2nd replication, what is the aggregate effect size? 
 
+
+```{r mod}
+
+paxton2012 <- data.frame(
+  sample_size = 92,
+  t_statistic = 2.03,
+  p_value = 0.05,
+  cohen_d = 0.43
+)
+
+fereday2019 <- data.frame(
+  sample_size = 82,
+  t_statistic = -0.36,
+  p_value = 0.72,
+  cohen_d = 0.08
+)
+
+pereira2023 <- data.frame(
+  sample_size = 160,
+  t_statistic = -1.12,
+  p_value = 0.26,
+  cohen_d = -0.18
+)
+
+
+all_studies <- rbind(paxton2012, fereday2019, pereira2023)
+all_studies$study <- c("paxton2012", "fereday2019", "pereira2023")
+all_studies$z_score <- qnorm(1 - all_studies$p_value/2)
+
+mini_meta_mod <- rma(yi = all_studies$cohen_d, sei = 1/all_studies$z_score^2, slab = all_studies$study)
+summary(mini_meta_mod)
+
+```
+
+
 ### Summary of Replication Attempt
 
-Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.  
+Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result. 
+
+In line with the original and Fereday's (2019) first replication, the present replication (henceforth, the second replication) found that moral acceptability ratings were reliable across both conditions (Cronbach's alpha =.73). This justified the use of a single moral acceptability score taken as the mean of judgements across all three dilemmas. There was no significant difference between the proportions of subjects in the CRT-first and Dilemma-first conditions before vs after exclusions. In fact, the proportion was almost identical (Pre-Exclusion CRT-First: 118 of 241 [49%], Post-Exclusion CRT-First: 78 of 160 [49%], x^2 = 0, p = 1), indicating that exclusions had no systematic effect on condition representation.
+
+The present study found no significant difference between the moral acceptability scores in the CRT-first vs Dilemmas-first conditions (CRT-First: M = 2.74; Dilemmas-First: M = 2.96; t(158) = -1.12, p = .26, d = -.18).  In fact, the slight but insignificant trend was that subjects in the Dilemmas-first condition actually judged utilitarian responses as more morally acceptable than subjects in the CRT first condition. This resulted conflicted with the original study (CRT-First: M = 3.77; Dilemmas-First: M = 3.25; t(90) = 2.03, p = .05, d = 0.43), but matched the first replication (CRT-First: M = 3.54; Dilemmas-First: M = 3.66; t(82) = -.36, p = .72, d = .08). 
+
+However, the present study did find a statistically significant positive correlation between CRT scores and moral acceptability scores within the CRT-first condition (r=.24, p=.035). It also found an insignificant relationship in the Dilemmas-First condition (r=.11, p=.31). This result matched the original study (r = .39, p = .001), but conflicted with the first replication, which found no significant correlations between CRT scores and moral ratings in either conditions (CRT-first condition: r = .14, p = .32). 
+
+![Figure 1 from Paxton, Unger, and Greene (2012)](/Users/alexpereira/Library/CloudStorage/OneDrive-Personal/Academics/Stanford/Courses/Fall_2023/PSYCH_251/paxton2012_rescue/data/original_graph.png)
+![Figure 1 from Fereday (2019)](/Users/alexpereira/Library/CloudStorage/OneDrive-Personal/Academics/Stanford/Courses/Fall_2023/PSYCH_251/paxton2012_rescue/data/first_replication_graph.png)
+![Figure 1 from the present study (2023)](/Users/alexpereira/Library/CloudStorage/OneDrive-Personal/Academics/Stanford/Courses/Fall_2023/PSYCH_251/paxton2012_rescue/data/rescue_graph.png)
+Finally, the present study found that viewing the moral dilemmas before vs after answering CRT questions had no significant effect on CRT scores (CRT-First: M = 2.08; Dilemmas-First: M = 2.18; t(158) = -.57, p = .57). This matched both the original and second replication, and suggests that viewing the dilemmas first did not influence how participants performed on the CRT.
 
 ### Commentary
 
-Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long.
+The second replication (present study) employed an experimental design that improved on the original and first replication in several ways. First, it was higher powered than both (post exclusions, n=160 [95% power] compared with original [n=92], and first replication [n=82]). Second, it used newer CRT questions from the CRT-2 and reworded classic CRT questions, to address the first replication's worry about participant familiarity with CRT questions on MTurk impairing the induction of an appropriate reflective state. Third, it used participants from Prolific instead of MTurk, which also addressed the concern about familiarity.
+
+The second replication did not reproduce the main result found in the original: participants who were shown the CRT questions before moral dilemmas did not hold more utilitarian convictions. This result might provide evidence against the claim that reflecting on moral dilemmas produces more utilitarian evaluations. However, the second replication did produce the other main result from the original study: in the CRT-first condition, participants who answered more CRT questions correctly were more likely to have stronger utilitarian convictions. There was no such relationship in the Dilemmas-First condition, which suggests that the observed relationship was not caused by trait-level reflection and utilitarian attitudes. But a state-level explanation -- where correctly answering CRT questions induced a reflective state that caused more utilitarian ratings -- does not fit either, since if that were true we should have observed a significantly higher moral acceptability ratings in the CRT-First vs Dilemma-First groups, which we did not (i.e., the first statistical test).
+
+This is a puzzle. The start of a solution is suggested by adding post-hoc another exclusion. The original study put no limit on duration, while the present study excluded only positive outliers taking than an hour to complete the study (n=4; median duration was 7:37). However, there was a (n=1) participant in the CRT-first condition who took only 95 seconds and returned a high CRT-score of 5, a high moral acceptability average rating of 5.8, and was "definitely familiar" with both the CRT questions and moral dilemmas. In the exploratory analysis, I excluded all participants who took less than 2 minutes on the survey (n=3 overall, n=1 in CRT-first) and correlation between CRT score and Moral Acceptability in the CRT-First condition became insignificant (r=.21, p=.07). As before, there was no significant correlation in the dilemmas-first condition. We can conclude that while there appears to be some slight pattern of positive correlation between CRT proficiency and the strength of one's utilitarian convictions, it is not one that is clear and significant. Further, it is not caused by a trait-level reflection, but neither is it caused by a state-level reflective state induced by the experimental design.
+
+Another explanation might concern how familiar participants are with the CRT questions. Familiarity was a concern of the first replication, and consequentially, the present replication aimed to reduce familiarity. However, the present replication was only moderately successful. 37% of participants self-reported being "unfamiliar" with the CRT questions, while the majority (47%) were "somewhat familiar" and 16% were "definitely familiar". 63% were either "somewhat" or "definitely" familiar, which was an improvement on the replication (where 77% reported being either "somewhat" or "definitely" familiar). The high levels of familiarity might have interrupted the targeted manipulation; perhaps participants in the CRT-first group who were familiar with the question were not induced into an appropriate reflective state. Familiarity with CRT questions had a significant positive correlation with CRT performance (r=.25, p=.001), but familiarity with CRT questions did not have a significant relationship with moral acceptability scores (r=.11, p=.16).
+
+![Histogram of Participant's Familiarity with CRT Questions](/Users/alexpereira/Library/CloudStorage/OneDrive-Personal/Academics/Stanford/Courses/Fall_2023/PSYCH_251/paxton2012_rescue/data/crt_histogram.png)
+Unlike the original or the first replication, the present replication also investigated how familiar participants were with the three moral dilemmas. Familiarity with moral dilemmas showed a similar trend to familiarity with CRT questions. Interestingly, previous exposure to the moral dilemmas appears to have important implications for moral judgements and CRT performance -- in fact, familiarity with dilemmas appears more influential than familiarity with the CRT. Familiarity with the moral dilemmas showed a strong and significant positive correlation with high moral acceptability scores, i.e., with strong utilitarian judgements (r=.30, p=.0001). That is, the more familiar participants were with the moral judgements, the more likely they were to produce utilitarian evaluations. Familiarity with dilemmas also had a strong and significant positive correlation with high CRT scores (r=.33, p.0001). 
+
+In the exploratory analysis, I performed the two main statistical tests on participants who were either completely unfamiliar, or "relatively" unfamiliar (either completely, or somewhat, unfamiliar) with both the CRT questions and moral dilemmas. Even though the analyses were moderately underpowered, they should reveal a trend towards the original study's findings if familiarity was interrupting the induction of a reflective state or influencing moral judgements directly. However, all analyses returned insignificant results; for example, a t-test on participants who were relatively unfamiliar with the CRT (n=131) showed no significant difference between the moral acceptability ratings of CRT-First vs Dilemma-First conditions (p=.63), while the same test on participants who were completely unfamiliar (n=33) was also insignificant (p=.56) Results from all analyses suggests that familiarity with either the CRT or dilemmas was not disrupting the experimental manipulation.
+
+Finally, two more exploratory analyses are of note. First, the data was reanalyzed using pre-exclusion data (n-241), and both main statistical tests were insignificant. Second, there was a significant relationship between duration and moral acceptability scores. Participants who took longer on the survey were significantly more likely to find utilitarian responses as less acceptable (r=-.16, p=.04). Since appropriate reflection requires time, this result must be reconciled with the claim that greater reflection produces stronger utilitarian judgements.
+
+To close, I will discuss some possible conclusions and future directions. There are at least two general explanations of why the present replication was mostly unsuccessful, and both explanations suggest areas of future research. The first explanation is that participant familiarity with CRT and the trolley-problem variants of moral dilemmas is so high that the original experimental result cannot be replicated using the original materials or variants thereof. Perhaps, variants of CRT questions and moral dilemmans, or even the general structure of those types of questions questions are so common in experimental designs (such as those employed on Prolific) that their potency is in general markedly diminished. To address this, future experiments might look to use alternate materials to induce a reflective state and measure utilitarian convictions. However, those paradigms must also be able to justify why the alternate materials manipulate and measure the same constructs.
+
+The second explanation concerns the background theoretical architecture of the original study. Namely, the original study was motivated by a general question regarding the nature of moral judgements. One model has moral judgements as inherently automatic, unconscious, and affective -- which predicts that mere reflection and even deliberative reasoning cannot change moral judgements. The other has initial moral judgements as being quick, automatic, unconscious, and emotional -- but then allows that mere reflection and deliberative reasoning can override the initial unconscious judgements. 
+
+What was unclear in the original study, however, was why we should think the initial moral judgement that is furnished by system-1 automatic processes should be directed towards "deontological" conclusions (i.e., participants are unwilling to actively kill one person to save five), while reason and reflection, which overrides the initial judgement, does so in the direction of making the conclusion more utilitarian (i.e., participants are willing to actively kill one person to save five). These seem like separate predictions, three in fact. The first is that reason and reflection can override initial automatic judgements (whatever these are); the second is that the initial unconscious judgement is generally deontological; the third is that reason and reflection generally make judgements more utilitarian. The original paper threads these three distinct predictions together without much clarity nor justification. Thus, if the three predictions do not hang together, we should expect to see no robust relationships between induced reflection and utilitarian judgements -- as observed in both replications. We could observe this even if it is true that reason and reflection can override initial unvconscious moral attitudes -- they just might do so in the other direction, i.e, making judgements less utilitarian. 
+
+Future studies should provide an updated literature review to defend the network of assumptions that predict the results observed in the original study. It is my suspicion that moral judgements are not so universal nrt generalizable that people are naturally unconsciously deontological and, with reflection, naturally become utilitarian. It seems likely that the situation is more complex, and therefore, more precise and varied experimental designs  are needed (including choice of materials, manipulation, context, and measure) to detect true causal effects. 
+
+Finally, a future rescue might add another element to the experimental design: something we might call a "moral benchmark". Presently, participants are not given any guidance when approaching the moral problems. They are left with complete freedom to interpret the moral situations and responses as they like. But the key experimental prediction is that reflection increases utilitarian responses. It is likely that people naturally have quite different intuitive and reasoned benchmarks for what counts as a morally permissible act. Put differently, a participant upon reflection might come to the conclusion that "persons" are sacred and so it is immoral to sacrifice 1 to save 5 (a classic deontological conviction). A future investigation might address this by adding in an explicitly utilitarian value to all conditions, e.g., before each dilemma, include a statement "On some moral theories, the most important outcome is to save as many people as possible, even if some people have to die to do so". This puts the utilitarian benchmark in plain sight, and participants will make their judgements in light of that benchmark while still being completely free to disvalue it in their ratings. Since this is given to both conditions -- CRT-first and Dilemma-first -- its influence is constant across conditions. The idea is that if the CRT questions induce a reflection state that is morally relevant because it overrides an initially intuitive judgement, in the new setup, reflection is given a moral direction to work towards.
+
+
