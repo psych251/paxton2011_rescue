@@ -6,7 +6,6 @@ format:
   html:
     toc: true
     toc_depth: 3
-    
 ---
 
 <!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
@@ -191,14 +190,14 @@ library(mbest)
 library(boot)
 library(psychonetrics)
 library(metafor)
-
+library(here)
 
 ```
 
 ```{R}
 #### Import data
 library(readr)
-raw_d <- read_csv("/Users/alexpereira/Library/CloudStorage/OneDrive-Personal/Academics/Stanford/Courses/Fall_2023/PSYCH_251/paxton2012_rescue/data/data_anon.csv")
+raw_d <- read_csv(here("data/data_anon.csv"))
 
 raw_d <- raw_d %>%
   slice(-c(1, 2))
