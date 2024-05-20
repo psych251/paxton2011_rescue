@@ -70,6 +70,13 @@ Neither the original study nor the replication measured how familiar participant
 ### Changes from Previous Replication
 The previous replication made several additions to the paradigm and exploratory analysis. For example, Fereday (2019) created personalized  (name of character in dilemmas is used) and depersonalized (name of character is not used) versions of the questions that were  randomly assigned to participants. The author added these two sub-conditions to investigate the relationship between personalization of questions and mean acceptability rating. Since these additions to the paradigm and analysis are orthogonal to the research questions of the original study, they will be excluded.
 
+### Numeric Score of Replication Closeness
+
+
+This is a broad measure of how similar the methods of the present rescue are to the methods used in the original study. 
+
+**Numeric score of replication closeness** = 0.75. Both the participant pool and primary experimental manipulation (CRT questions) involved significant changes. However, the overall structure of the experiment is almost identical to the original.
+
 ## Methods
 
 ### Power Analysis
@@ -842,7 +849,7 @@ The rescue did appear to replicate the secondary inference of the original paper
 
 Finally, the present study found that viewing the moral dilemmas before vs after answering CRT questions had no significant effect on CRT scores (CRT-First: M = 2.08; Dilemmas-First: M = 2.18; t(158) = -.57, p = .57). This matches both the original and replication and suggests that viewing the dilemmas first did not influence how participants performed on the CRT.
 
-**Numeric score of replication closeness** = 0.25. On a simple scale [0, .25, .5, .75, 1] with 0 = didn’t replicate, 1 = replicated, and in between if there were mixed results, we can select 0.25 as the present study partially replicated one finding from Paxton et al., (2012)'s original study.
+**Numeric score of replication success** = 0.25. On a simple scale [0, .25, .5, .75, 1] with 0 = didn’t replicate, 1 = replicated, and in between if there were mixed results, we can select 0.25 as the present study partially replicated one finding from Paxton et al., (2012)'s original study.
 
 ## Discussion
 
@@ -875,29 +882,31 @@ In the exploratory analysis, I performed the two main statistical tests on parti
 
 However, all analyses returned insignificant results. For example, a t-test on participants who were relatively unfamiliar with the CRT (n=131) showed no significant difference between the moral acceptability ratings of CRT-First vs Dilemma-First conditions (p=.63), while the same test on participants who were completely unfamiliar (n=33) was also insignificant (p=.56) Results from all analyses suggests that familiarity with either the CRT or dilemmas was not interfering with the main experimental manipulation.
 
-Finally, two more exploratory analyses are of note. First, the pre-exclusion data was analyzed using the same tets (n-241). Statistical tests for both main inferences were also found to be insignificant. 
+Finally, two more exploratory analyses are of note. First, the pre-exclusion data was analyzed with the same statistical tests (n=241). Statistical tests for both main inferences were found to be insignificant. 
 
 Second, a slight but significant negative relationship between duration and moral acceptability was observed. Participants who took longer on the survey gave weaker utilitarian evaluations (r=-.16, p=.04). Intuitively, reflection is an activity requiring time; one might expect that longer duration is associated with stronger reflection and therefore should induce stronger utilitarian responses. Therefore, this contrary result must be reconciled with Paxton et al.’s (2012) claim that greater reflection produces stronger utilitarian judgements.
 
-I will close by speculating on possible conclusions to draw from this failed rescue, which in turn suggest future directions. One explanation for the failures to replicate Paxton et al., (2012)'s findings in experiment 1 concerns sweeping familiarity: perhaps current participants are just too familiar with the CRT and its variants, and trolley-problem-like moral dilemmas and their variants, for the relevant experimental manipulations and detections to be effective and accurate, respectively. This explanation preserves the integrity of Paxton et al., (2012)'s original study, but suggests that present replications are doomed to fail. To address this, future experiments should adopt different methods and materials to manipulate and measure the constructs of interests. However, such paradigms must justify why we should interpret the alternate materials as playing the same functional roles of the CRT and moral dilemmas in Paxton et al., (2012), which is not easy to do.
+### Concluding Remarks
 
-Another more critical explanation takes issue with the background theoretical architecture of the original study. Paxton et al., (2012)'s hypotheses are derived from an intricate web of theories and empirical results, which in turn lean on several assumptions and argumentative moves, all made quickly early on in the original paper. Of course, since the original experiment was successful the choice and defense of hypotheses should have be accepted without too much scrutiny. But the growing pattern of failed replication and rescue calls for critical re-examination of background assumptions and arguments motivating the original hypotheses. 
+I will close by speculating on possible conclusions to draw from this failed rescue, which in turn suggest future directions of investigation. One explanation for the failures to replicate Paxton et al., (2012)'s findings in experiment 1 concerns sweeping familiarity: perhaps current participants are just too familiar with the CRT and its variants, and trolley-problem-like moral dilemmas and their variants, for the relevant experimental manipulations and detections to be effective and accurate, respectively. This explanation preserves the integrity of Paxton et al., (2012)'s original study but suggests that present replications are doomed to fail. To address this, future experiments should adopt different methods and materials to manipulate and measure the constructs of interests. However, such paradigms need to justify why the alternate materials should be interpreted as playing the functional roles of the CRT and moral dilemmas in the original study, which might not be easy to do.
 
-There are in fact four different assumptions guiding Paxton et al., (2012)'s predictions. 
+A second more critical explanation takes issue with the background theoretical architecture of the original study. Paxton et al., (2012)'s hypotheses are derived from an intricate web of theories and empirical results, which in turn lean on several assumptions and argumentative moves, all made quickly early on in the original paper. Since the original experiment was successful, the background assumptions and choice of hypotheses were partially validated and therefore should have been accepted with minimal scrutiny. But the growing pattern of failed replication and rescue calls for critical re-examination of background assumptions and the arguments behind the original hypotheses. 
 
-First, moral judgements tend to be initially automatic and unconscious (this has support from Greene's two-stage picture). 
+There are in fact four different assumptions at play in Paxton et al., (2012). 
 
-Second, cognitive reflection can override initial automatic judgements (*whatever* these judgments happen to be). 
+1. Moral judgements are generally initially informed by automatic and unconscious processes (this claim finds support in Greene's two-stage picture). 
 
-Third -- and importantly -- initial unconscious moral judgements for *everyone* tend towards the *deontological* (i.e., respecting the rights of persons, and therefore, *not* sacrificing one to save many). 
+2. Cognitive reflection can override (change) the initial automatic judgement (*whatever* the judgment happens to be). 
 
-Fourth, cognitive reflection makes moral judgements tend towards the *utilitarian* (i.e., maximising overall good, and therefore, sacrificing one to save many). This last point of course is the main experimental test; the rest is background.
+3. (Importantly) the value of the initial automatic judgement for *everyone* tends toward a *deontological* position (i.e., respecting the rights of persons, and therefore, *not* sacrificing one to save many). 
 
-Paxton et al., (2012) weave these assumptions together without much justification nor clarity. To be clear, I am not saying the original authors are unjustified in assuming or predicting the above; I am saying each of these assumptions are not separately motivated nor transparently justified in the original paper. Any of the foregoing assumptions could be wrong. So the failed replications might be detecting an error in the fourth point, or in *one to three*. Assuming the failed replications are explained by a problem in the background assumptions, from the present vantage point, it is not clear where the error lies; it could be in any of the assumptions, or a collection.
+4. Cognitive reflection tends to overwrite the initial deontological judgement in the direction of *utilitarian* positions (i.e., maximising overall good, and therefore, sacrificing one to save many). This last point of course is the main experimental test; the rest is background.
 
-For example: it might be true that initial moral judgements are made automatically and emotionally. It might also be true that cognitive reflection can override these initial judgements. However, perhaps the initial automatic judgements tend towards the *utilitarian*, and the overriding reflection might be in the direction of *deontological*. More likely, there might be a lot of variance and individuality to people's default moral attitude, or context-specific effects with regard to moral attitude manipulation. 
+Paxton et al., (2012) weave these assumptions together without much justification nor clarity. To be clear, I am not saying the original authors are unjustified in assuming or predicting the above; I am saying the assumptions are not individually motivated nor transparently justified in the original paper. Any of the foregoing assumptions might be causing problems. So the failed replications could be detecting an error in (4), *or* in (1) to (3). Assuming the failed replications are explained by a problem in the background assumptions, from the present vantage point, it is not clear where the error lies; it could be in any of the assumptions, or a collection.
 
-An updated literature review regarding assumptions one through four would be helpful to assess the background reasoning of Paxton et al., (2012) against contemporary empirical data.
+For example: it might be true that initial moral judgements are made automatically and emotionally. It might also be true that cognitive reflection can override these initial judgements. However, perhaps the initial automatic judgement tends towards *utilitarian* positions, and the overriding reflection might be in the direction of *deontological*. More likely, there might be a lot of variance and individuality to people's default moral attitude, and relevant context-specific effects with regard to how moral attitudes are manipulated in experimental conditions 
+
+An updated literature review regarding assumptions (1) through (4) would be helpful to assess the background reasoning of Paxton et al., (2012) against contemporary empirical data.
 
 
 
