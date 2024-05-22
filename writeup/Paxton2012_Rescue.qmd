@@ -69,12 +69,12 @@ Neither the original study nor the replication measured how familiar participant
 ### Changes from Previous Replication
 The previous replication made several additions to the paradigm and exploratory analysis. For example, Fereday (2019) created personalized  (name of character in dilemmas is used) and depersonalized (name of character is not used) versions of the questions that were  randomly assigned to participants. The author added these two sub-conditions to investigate the relationship between personalization of questions and mean acceptability rating. Since these additions to the paradigm and analysis are orthogonal to the research questions of the original study, they will be excluded.
 
-### Numeric Score of Replication Closeness
+### Rating of Replication Closeness
 
 
 This is a broad measure of how similar the methods of the present rescue are to the methods used in the original study. 
 
-**Numeric score of replication closeness** = 0.75. Both the participant pool and primary experimental manipulation (CRT questions) involved significant changes. However, the overall structure of the experiment is almost identical to the original.
+The present rescue is a **close replication** of the original study. The independent and dependent variables from Paxton et al., (2012) are operationalized in the same way as the original study, however different stimuli is used to manipulate cognitive reflection. Additional changes are consistent with a very close replication (for example, using Prolific to recruit participants instead of MTurk). 
 
 ## Methods
 
